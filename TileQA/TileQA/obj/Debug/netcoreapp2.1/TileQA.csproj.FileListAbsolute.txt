@@ -1,0 +1,11 @@
+C:\Users\Paul\source\repos\TileQA\TileQA\bin\Debug\netcoreapp2.1\TileQA.deps.json
+C:\Users\Paul\source\repos\TileQA\TileQA\bin\Debug\netcoreapp2.1\TileQA.runtimeconfig.json
+C:\Users\Paul\source\repos\TileQA\TileQA\bin\Debug\netcoreapp2.1\TileQA.runtimeconfig.dev.json
+C:\Users\Paul\source\repos\TileQA\TileQA\bin\Debug\netcoreapp2.1\TileQA.dll
+C:\Users\Paul\source\repos\TileQA\TileQA\bin\Debug\netcoreapp2.1\TileQA.pdb
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.csprojAssemblyReference.cache
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.AssemblyInfo.cs
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.dll
+C:\Users\Paul\source\repos\TileQA\TileQA\obj\Debug\netcoreapp2.1\TileQA.pdb
