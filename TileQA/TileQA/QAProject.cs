@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using TileQA;
 
@@ -7,12 +8,21 @@ namespace TileQA
 {
     class QAProject
     {
-
+        public Collection<Tile> ProjectTiles = new Collection<Tile>();
         public bool ProjectComplete { get; set; } = false;
-        public int TileCount { get; set; }
-        public List<Tile> ProjectTiles { get; set; }
+        private int _tileCount = 0;
+        public int TileCount
+        {
+            get { return _tileCount; }
+            set
+            {
+                _tileCount = ProjectTiles.Count;
+            }
+        }
 
-        // method to access/change tiles properties
+        // public int TileCount { get; set; }
+        public string ProjectName { get; set; }
+
 
         public void IsComplete()
         {

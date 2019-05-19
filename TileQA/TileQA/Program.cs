@@ -11,31 +11,25 @@ namespace TileQA
 
             var lines = File.ReadLines(@"C:\Users\Paul\Desktop\tile.txt");
 
+            var size = 500;
+
             QAProject project = new QAProject();
 
             foreach (var line in lines)
             {
                 Tile newTile = new Tile();
                 newTile.TileName = line;
-                newTile.TileSideLength = 500;
-                
-                Console.WriteLine("Line: " + line);
-                Console.WriteLine("Tile name : " + newTile.TileName);
-                Console.WriteLine("Tile colour: " + newTile.TileColour);
-                Console.WriteLine("State of tile: " + newTile.ThisTileState);
-                Console.WriteLine("Metres squared: " + newTile.TileSideLength);
-                Console.WriteLine(newTile);
-                Console.WriteLine(project.ProjectComplete);
-
-
+                newTile.TileSideLength = size;
                 project.ProjectTiles.Add(newTile);
                 
             }
 
+            foreach (var item in project.ProjectTiles)
+            {
+                Console.WriteLine(item.TileName);
+            }
+
             
-
-
-
 
         }
     }

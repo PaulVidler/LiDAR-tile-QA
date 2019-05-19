@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul\\source\\repos\\TileQA\\TileQA\\TileQA.csproj",
+      "projectUniqueName": "C:\\Users\\Paul\\Documents\\GitHub\\LiDAR-tile-QA\\TileQA\\TileQA\\TileQA.csproj",
       "projectName": "TileQA",
-      "projectPath": "C:\\Users\\Paul\\source\\repos\\TileQA\\TileQA\\TileQA.csproj",
+      "projectPath": "C:\\Users\\Paul\\Documents\\GitHub\\LiDAR-tile-QA\\TileQA\\TileQA\\TileQA.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul\\source\\repos\\TileQA\\TileQA\\obj\\",
+      "outputPath": "C:\\Users\\Paul\\Documents\\GitHub\\LiDAR-tile-QA\\TileQA\\TileQA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
