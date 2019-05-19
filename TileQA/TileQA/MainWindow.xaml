@@ -1,0 +1,27 @@
+﻿<Window x:Class="TileQA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TileQA"
+        mc:Ignorable="d"
+        Title="Aerometrex LiDAR tile QA" Height="750" Width="800" Background="Gray">
+
+    <Grid>
+        <Image Source="aerometrex.png" HorizontalAlignment="Left" Height="98" Margin="582,10,0,0" VerticalAlignment="Top" Width="188" RenderTransformOrigin="0.55,0.48"/>
+        <Label Content="Project Name" HorizontalAlignment="Left" Margin="582,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="Selected tile name" HorizontalAlignment="Left" Margin="582,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tile Size" HorizontalAlignment="Left" Margin="582,290,0,0" VerticalAlignment="Top"/>
+        <Label Content="Total tiles" HorizontalAlignment="Left" Margin="582,234,0,0" VerticalAlignment="Top"/>
+        <Label Content="State of selected tile" HorizontalAlignment="Left" Margin="582,346,0,0" VerticalAlignment="Top" Width="127"/>
+        <Label Content="Current State of tile" HorizontalAlignment="Left" Margin="582,584,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="47" Margin="582,628,0,0" VerticalAlignment="Top" Width="188"/>
+        <Label Content="X tiles left to QA" HorizontalAlignment="Left" Margin="634,628,0,0" VerticalAlignment="Top"/>
+        <Label Content="QA COMPLETE!" HorizontalAlignment="Left" Margin="634,649,0,0" VerticalAlignment="Top" />
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="699" Margin="10,10,0,0" VerticalAlignment="Top" Width="548">
+            <DataGrid/>
+        </Border>
+
+
+    </Grid>
+</Window>
